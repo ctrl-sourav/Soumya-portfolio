@@ -1,105 +1,133 @@
-# Soumya Sourav Kuanr - Portfolio
+# Soumya's Portfolio
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. This project showcases professional skills, projects, and contact information in a beautiful and interactive interface.
 
-## Features
+## ✨ Features
 
-- **Mobile-First Design**: Fully responsive design that works seamlessly across all devices
-- **Smooth Navigation**: Animated hamburger menu for mobile devices with smooth transitions
-- **Modern UI**: Built with shadcn/ui components and Tailwind CSS
-- **Performance Optimized**: Fast loading times with Vite build tool
-- **Accessibility**: WCAG compliant with proper ARIA labels and keyboard navigation
+- **Modern Design**: Clean and professional UI with smooth animations
+- **Responsive Layout**: Optimized for all devices and screen sizes
+- **Interactive Components**: Built with shadcn/ui components for enhanced UX
+- **Contact Form**: Functional contact section with form validation
+- **Project Showcase**: Dedicated section to highlight projects and skills
+- **Smooth Navigation**: Seamless scrolling and navigation experience
 
-## Mobile Responsiveness
+## 🛠️ Tech Stack
 
-The portfolio includes comprehensive mobile responsiveness features:
+### Frontend
+- **React 18** - Modern React with hooks and functional components
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful and accessible UI components
+- **Radix UI** - Headless UI primitives
+- **Lucide React** - Beautiful icons
 
-- **Hamburger Menu**: Animated mobile navigation with smooth open/close transitions
-- **Touch-Friendly**: All interactive elements meet minimum 44px touch target requirements
-- **Responsive Typography**: Text scales appropriately across different screen sizes
-- **Flexible Layouts**: Components adapt to mobile, tablet, and desktop viewports
-- **Smooth Animations**: CSS transitions and transforms for enhanced user experience
 
-## Project info
 
-**URL**: https://lovable.dev/projects/48a17cd1-b1a3-4a2a-9c72-e6dfef5c2212
+## 🚀 Getting Started
 
-## How can I edit this code?
+### Prerequisites
 
-There are several ways of editing your application.
+Make sure you have the following installed:
+- **Node.js** (version 16 or higher)
+- **npm** or **yarn** or **bun**
 
-**Use Lovable**
+### Installation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/48a17cd1-b1a3-4a2a-9c72-e6dfef5c2212) and start prompting.
+1. **Clone the repository**
+   ```bash
+   git clone <your-repository-url>
+   cd "Soumya's Portfolio"
+   ```
 
-Changes made via Lovable will be committed automatically to this repo.
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   bun install
+   ```
 
-**Use your preferred IDE**
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   bun dev
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+4. **Open your browser**
+   Navigate to `http://localhost:8080` to view the application.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Project Structure
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── HeroSection.tsx # Hero section component
+│   ├── AboutSection.tsx # About section component
+│   ├── ProjectsSection.tsx # Projects showcase
+│   ├── SkillsSection.tsx # Skills display
+│   ├── ContactSection.tsx # Contact form
+│   ├── Navigation.tsx  # Navigation bar
+│   └── Footer.tsx      # Footer component
+├── pages/              # Page components
+│   ├── Index.tsx       # Main portfolio page
+│   └── NotFound.tsx    # 404 page
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+├── App.tsx             # Main app component
+└── main.tsx            # Application entry point
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Customization
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Styling
+- The project uses Tailwind CSS for styling
+- Custom styles can be added in `src/index.css`
+- Theme configuration is in `tailwind.config.ts`
 
-**Use GitHub Codespaces**
+### Components
+- All UI components are built with shadcn/ui
+- Custom components can be added in `src/components/`
+- Follow the existing component structure for consistency
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Content
+- Update personal information in the respective section components
+- Modify project data in `ProjectsSection.tsx`
+- Update skills in `SkillsSection.tsx`
+- Customize contact information in `ContactSection.tsx`
 
-## What technologies are used for this project?
+## 📦 Available Scripts
 
-This project is built with:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- **Vite** - Fast build tool and development server
-- **TypeScript** - Type-safe JavaScript
-- **React** - UI library
-- **shadcn/ui** - Modern component library
-- **Tailwind CSS** - Utility-first CSS framework
-- **Lucide React** - Beautiful icon library
 
-## Mobile Navigation Features
 
-The mobile navigation includes:
 
-- **Animated Hamburger Icon**: Smooth transformation from hamburger to X
-- **Full-Screen Overlay**: Mobile menu covers the entire screen for better UX
-- **Staggered Animations**: Menu items animate in sequence for visual appeal
-- **Body Scroll Lock**: Prevents background scrolling when menu is open
-- **Responsive Breakpoints**: Automatically adapts to screen size changes
-- **Accessibility**: Proper ARIA labels and keyboard navigation support
 
-## How can I deploy this project?
+### Tailwind Configuration
+- Custom color scheme and typography
+- Animation utilities included
+- Responsive breakpoints configured
 
-Simply open [Lovable](https://lovable.dev/projects/48a17cd1-b1a3-4a2a-9c72-e6dfef5c2212) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📞 Contact
+
+- **Name**: Soumya Sourav Kuanr
+- **Email**: [soumyasourav03@gmail.com]
+
+
+---
+
+Made by Soummya Sourav Kuanr
