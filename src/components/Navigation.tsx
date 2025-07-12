@@ -167,7 +167,7 @@ const Navigation = () => {
             {/* Menu Footer */}
             <div className="p-6 border-t border-border mt-auto">
               <p className="text-sm text-muted-foreground text-center">
-                © 2024 Soumya Sourav Kuanr
+                © 2025 Soumya Sourav Kuanr
               </p>
             </div>
           </div>
