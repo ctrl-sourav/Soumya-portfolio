@@ -43,7 +43,7 @@ const Footer = () => {
               © 2025 Soumya Sourav Kuanr. All rights reserved.
             </p>
             <p className="font-inter text-xs text-muted-foreground/70 mt-2">
-              Built with React, TypeScript & Tailwind CSS
+              
             </p>
           </div>
         </div>
