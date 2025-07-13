@@ -12,7 +12,7 @@ import { Github, ExternalLink } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'Student Colllaboration Platform',
+      title: 'Student Collaboration Platform',
       description:
         'A Student collaborative platform learn and grow together. Chat, video call, share notes, and form study groups.',
       technologies: ['React', 'TypeScript', 'Tailwind CSS'],
